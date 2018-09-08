@@ -1,0 +1,329 @@
+\documentclass[a4paper]{article}
+
+%%%% Package Imports %%%%
+\usepackage[a4paper,landscape]{geometry}
+\usepackage{fancybox}
+\usepackage{color}
+\usepackage{flowfram}
+\usepackage[super]{nth}
+\usepackage{graphicx}
+\usepackage{sectsty}
+\usepackage{hyperref}
+\usepackage{epstopdf}
+
+%% \allsectionsfont{ \sectionrule { <raise top by> }{ <top rule height> } { <raise bottom by> }{ <bottom rule height> } }
+\allsectionsfont{\sectionrule{2ex}{2pt}{-1ex}{1pt}} % applies overline and underline to all sections
+
+%%%% Tweak amount of text on page %%%%
+\addtolength{\oddsidemargin}{-1.6in}  %% more negative == more text
+\addtolength{\evensidemargin}{-1.5in} %% more negative == more text
+\addtolength{\textwidth}{3.2in}       %% more positive == more text
+\addtolength{\topmargin}{-2.0in}      %% more negative == more text
+\addtolength{\textheight}{3.4in}      %% more positive == more text
+
+%% \NcolumStop { <numer of columns> }{ <gap between columns> }
+\NcolumnStop{4}{1in} 
+
+%%%% WTF Commands %%%%
+\newcommand{\mtgname}[1] {\vspace{0.1cm}{\bf #1}\\}   %% Meeting Name
+\newcommand{\mtgtime}[1] {\hspace{-0.2cm}{\small #1}} %% Meeting Time
+\newcommand{\mtgdetails}[1] {#1}                      %% Meeting Details
+%%%% WARNING: NEXT LINE IS EDITED BY make_wtf_pi_tex.sh %%%%
+\newcommand{\mtgphones}[1] {[\textit{#1}]}            %% Meeting Phone numbers
+
+\renewcommand{\familydefault}{\sfdefault} % sans-serif font
+
+\raggedright %% right-hand side of text is ragged
+
+\begin{document}
+
+%%%% Meeting List %%%%
+
+\section*{Monday}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\newpage{}
+
+\section*{Tuesday}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\section*{Wednesday}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\section*{Thursday}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\section*{Friday}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\section*{Saturday}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\section*{Sunday}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+\mtgname{Meeting name goes here}
+\mtgtime{12:45--13:45} \mtgdetails{(DisAcc, O by R) Meeting details go here, including address, post code...}
+\mtgphones{Bill W: 07777 777777, Dr. Bob: 07888 888888}
+
+%%%% end of Meeting List %%%%
+
+\newpage{}
+
+\subsection*{Notes}
+
+{\small \nopagebreak Meetings are normally closed, i.e. restricted to those with a drinking problem. Some meetings are open, i.e. non-alcoholics are welcome, as indicated. (\nth{1}) means that the first meeting of the month is open. (O by R) means Open by Request. (DisAcc) means full access for wheelchair users. An asterisk (*) shows that there is an Al-Anon meeting held in the same venue or nearby.  
+
+For further information: \href{https://aa-gb.org/IntergroupArea}{aa-gb.org/IntergroupArea}
+
+\mtgphones{Changes or additions please contact \href{mailto:meetings.intergrouparea@aamail.org}{meetings.intergrouparea@aamail.org}.}.}
+
+%%%% WARNING: NEXT LINE IS EDITED BY make_wtf_pi_tex.sh %%%%
+%%%% Front Page %%%% 
+\newpage{}
+\vspace*{2.0cm}
+\centering
+\includegraphics[scale=1.5]{aa_logo.eps}
+%%%% WARNING: NEXT LINE IS EDITED BY make_wtf_pi_tex.sh %%%%
+{\LARGE \bf CONFIDENTIAL\\
+\vspace{0.5cm}
+IntergroupArea Intergroup of Alcoholics Anonymous\\
+\vspace{0.5cm}
+\underline{Directory of Meetings}\\
+\vspace{0.5cm}
+IntergroupArea Helpline:\\
+\vspace{0.2cm}
+01010 010010\\
+\vspace{0.5cm}
+National Helpline:\\
+\vspace{0.2cm}
+0800 9177 650\\
+\vspace{0.5cm}
+Electronic Helpline:\\
+\vspace{0.2cm}
+\href{mailto:help@aamail.org}{help@aamail.org}}\\
+\vspace{0.5cm}
+{\large (Updated \today{})}
+
+\endcenter
+%%%% end of Front Page %%%%
+
+\end{document}
+

@@ -1,4 +1,8 @@
-# IntergroupArea AA Where To Find 
+# 4-column PDF leaflet
+
+This project creates a 4-column A4 paper size two-sided leaflet in PDF format.
+
+In this example, the format is used to make a list of AA meetings, known as a 'Where To Find'.
 
 ## Usage
 
@@ -9,6 +13,8 @@
 
 * run `make clean` to clean up the built files. This removes the .pdf, .log, .out, and other generated 
   files.
+
+Print the resulting PDF on A4 paper, two-sided, flip on short edge.
 
 ## Dependencies
 
